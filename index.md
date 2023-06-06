@@ -22,9 +22,16 @@ The error occurs, because there seems to be no path to the hamcrest-core junit f
 ## Process: 
 The only file that was changed was grade.sh everything else remained the same. First I went into `grade.sh` file and edited both lines **17** and **19**. On line 17 I removed the CPATH and in its place copy and pasted the following `".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`. Then on line 19 I replaced the CPATH once more with the following `".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore > junit-output.txt`. Line 17 changed to `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java` and line 19 changed to `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore > junit-output.txt`. I then ran both line 17 and 19 in the terminal, followed by `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` and the program worked. 
 
-**Before:** 
+**Before:**
 
+![Image](Debug4.png)
 
+**Bug Triggered:** 
+
+![Image](Debug1.png)
+
+## Reflection: 
+In the second half of this quarter I learned how to edit code through vim, using the proper keys, as well as how to pull and push these changes to a repository from the server. Also a neat trick that my partner showed me this quarter was that we could use the arrow keys to look at the previous commands we used, so if I ever need to reuse a long command I have used before I can use the arrow keys to find it rather than going through the struggle of having to type it all out again. 
 
 
 
