@@ -31,9 +31,4 @@ The only file that was changed was grade.sh everything else remained the same. F
 ![Image](Debug1.png)
 
 ## Reflection: 
-In the second half of this quarter I learned how to edit code through vim, using the proper keys, as well as how to pull and push these changes to a repository from the server. Also a neat trick that my partner showed me this quarter was that we could use the arrow keys to look at the previous commands we used, so if I ever need to reuse a long command I have used before I can use the arrow keys to find it rather than going through the struggle of having to type it all out again. 
-
-
-
-
-
+In the second half of this quarter I learned how to edit code through vim, using the proper keys, as well as how to pull and push these changes to a repository from the server. I also learned how to log into my ineg6 account without requiring a password saving some time with the login, this was made possible by using the key from the account. Lastly a neat trick that my partner showed me this quarter was that we could use the arrow keys to look at the previous commands we used, so if I ever need to reuse a long command I have used before I can use the arrow keys to find it rather than going through the struggle of having to type it all out again. 
